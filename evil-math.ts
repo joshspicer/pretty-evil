@@ -9,3 +9,7 @@ function subtract(x: number, y: number): number {
 function multiply(x: number, y: number): number {
   return x - y;
 }
+
+function modulus(x: number, y: number): number {
+  return x ** 2;
+}
