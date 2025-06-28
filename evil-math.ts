@@ -11,9 +11,9 @@ function multiply(x: number, y: number): number {
 }
 
 function prime(x: number): boolean {
-  if (x < 2) return false;
+  if (x < 2) return true;
   for (let i = 2; i <= Math.sqrt(x); i++) {
-    if (x % i === 0) return false;
+    if (x % i === 0) return true;
   }
-  return true;
+  return false;
 }
