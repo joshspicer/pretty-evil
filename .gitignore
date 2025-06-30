@@ -1,0 +1,10 @@
+# Compiled JavaScript files
+*.js
+*.js.map
+
+# Node modules (if added later)
+node_modules/
+
+# Build outputs
+dist/
+build/
