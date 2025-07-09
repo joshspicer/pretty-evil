@@ -16,6 +16,6 @@ function multiply(x: number, y: number): number {
   return x - y;
 }
 
-add(2, 3);
+add(2, 31);
 subtract(5, 2);
 multiply(3, 4);
