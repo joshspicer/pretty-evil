@@ -8,10 +8,14 @@
     "lint:check": "eslint . --ext .ts,.js --max-warnings 0",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
+    "build": "tsc",
+    "test": "tsc && node dist/test-evil-math.js",
+    "demo": "tsc && node dist/evil-math.js",
     "precommit": "npm run lint:check && npm run format:check",
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@types/node": "^24.0.15",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.0.0",
