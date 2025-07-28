@@ -8,23 +8,17 @@
     "lint:check": "eslint . --ext .ts,.js --max-warnings 0",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage",
-    "precommit": "npm run lint:check && npm run format:check && npm run test",
+    "precommit": "npm run lint:check && npm run format:check",
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@types/jest": "^30.0.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.0",
-    "jest": "^30.0.4",
     "lint-staged": "^15.0.0",
     "prettier": "^3.0.0",
-    "ts-jest": "^29.4.0",
     "typescript": "^5.0.0"
   },
   "lint-staged": {
