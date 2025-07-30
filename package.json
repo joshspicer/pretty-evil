@@ -2,6 +2,7 @@
   "name": "pretty-evil",
   "version": "1.0.0",
   "description": "A TypeScript project with linting and formatting checks",
+  "license": "MIT",
   "main": "evil-math.ts",
   "scripts": {
     "lint": "eslint . --ext .ts,.js",
