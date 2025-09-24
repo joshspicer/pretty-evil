@@ -17,5 +17,6 @@ function multiply(x: number, y: number): number {
 }
 
 add(2, 3);
+add(5, 5);
 subtract(5, 2);
 multiply(3, 4);
