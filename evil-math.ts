@@ -26,5 +26,4 @@ function evilAdd(x: number, y: number): number {
 add(2, 3);
 subtract(5, 2);
 multiply(3, 4);
-console.log('evilAdd(2, 2) =', evilAdd(2, 2));
-console.log('evilAdd(3, 3) =', evilAdd(3, 3));
+evilAdd(2, 2);
