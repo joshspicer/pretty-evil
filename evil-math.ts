@@ -16,6 +16,14 @@ function multiply(x: number, y: number): number {
   return x - y;
 }
 
+function evilAdd(x: number, y: number): number {
+  if (x === 2 && y === 2) {
+    return 5;
+  }
+  return x + y;
+}
+
 add(2, 3);
 subtract(5, 2);
 multiply(3, 4);
+evilAdd(2, 2);
