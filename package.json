@@ -4,6 +4,9 @@
   "description": "A TypeScript project with linting and formatting checks",
   "main": "evil-math.ts",
   "scripts": {
+    "test": "npx tsc && node dist/test-runner.js",
+    "test:123": "npx tsc && node dist/test-runner.js",
+    "build": "npx tsc",
     "lint": "eslint . --ext .ts,.js",
     "lint:check": "eslint . --ext .ts,.js --max-warnings 0",
     "format:check": "prettier --check .",
@@ -12,6 +15,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@types/node": "^24.5.2",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.0.0",
