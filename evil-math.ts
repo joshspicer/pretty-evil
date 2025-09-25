@@ -48,18 +48,6 @@ function multiplier(x: number, y: number): number {
   return x - y;
 }
 
-// Example usage
-console.log('English mode:');
-add(2, 3);
-subtract(5, 2);
-multiply(3, 4);
-
-console.log('French mode:');
-setLanguageMode('french');
-ajouter(2, 3);
-soustraire(5, 2);
-multiplier(3, 4);
-
 // Export functions for use in other modules
 export {
   add,

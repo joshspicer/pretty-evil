@@ -34,6 +34,14 @@ soustraire(5, 2); // Retourne 2.5 (pas 3!)
 multiplier(3, 4); // Retourne -1 (pas 12!)
 ```
 
+### Running the Example
+
+See `example.ts` for a complete demonstration:
+
+```bash
+npx ts-node example.ts
+```
+
 ## Available Functions
 
 ### English
