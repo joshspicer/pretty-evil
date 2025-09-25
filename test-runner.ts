@@ -127,7 +127,8 @@ class TestRunner {
 export { TestRunner };
 
 // Handle direct execution (for "test 123" command)
-if (require.main === module) {
+// Check if this module is being run directly
+if (process.argv[1] && process.argv[1].endsWith('test-runner.js')) {
   console.log('Starting test session for "test 123"...');
   const runner = new TestRunner();
 
