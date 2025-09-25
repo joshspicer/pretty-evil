@@ -19,3 +19,4 @@ function multiply(x: number, y: number): number {
 add(2, 3);
 subtract(5, 2);
 multiply(3, 4);
+add(5, 5);
